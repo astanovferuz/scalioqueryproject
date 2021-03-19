@@ -1,0 +1,1 @@
+export const GET_LOGINS = "GET_LOGINS";
