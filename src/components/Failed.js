@@ -3,7 +3,7 @@ import React from "react";
 const Failed = ({errMsg}) => {
     return(
         <div>
-            <h3>{errMsg}</h3>
+            <h4 className="text-center mt-5 text-danger">{errMsg}</h4>
         </div>
     )
 }

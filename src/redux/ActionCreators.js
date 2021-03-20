@@ -8,7 +8,7 @@ export const getLogs = (logKey) => async dispatch => {
         const data = await results;
         dispatch(getLogins(data));
     } catch (error) {
-        dispatch(logsFailed(error.message));
+        dispatch(logsFailed(error.message + ". Please try again."));
     }
 }
 

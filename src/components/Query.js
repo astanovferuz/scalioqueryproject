@@ -8,7 +8,7 @@ const QueryComponent = ({handleChange, handleSubmit, queryWord}) => {
                 <InputGroup>
                     <Input value={queryWord} onChange={handleChange} placeholder="Please enter a word" />
                     <InputGroupAddon addonType="append">
-                        <Button color="success">Search</Button>
+                        <Button color="success">Submit</Button>
                     </InputGroupAddon>
                 </InputGroup>
             </Form>

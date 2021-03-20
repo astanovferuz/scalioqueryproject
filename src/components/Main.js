@@ -34,7 +34,7 @@ const Main = () => {
     const paginate = pageNumber => setCurrentPage(pageNumber);
 
     return(
-        <div className="container mt-4">
+        <div className="container mt-3">
             <div className="row">
                 <div className="col-md-8 mx-auto">
                     <QueryComponent queryWord={queryWord} 
