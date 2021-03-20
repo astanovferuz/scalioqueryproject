@@ -22,11 +22,8 @@ const Main = () => {
         e.preventDefault();
         dispatch(getLogs(queryWord));
         setqueryWord("");
-        console.log(state.logResults.items)
 
     }
-
-    console.log(state.logResults.items);
 
     const indexOfLastPost = currentPage * postsPerPage;
     const indexOfFirstPost = indexOfLastPost - postsPerPage;

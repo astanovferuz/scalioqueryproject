@@ -5,7 +5,6 @@ import NoLogs from "./NoLogsFound";
 import TableRow from "./TableRow";
 
 const Results = ({logs, isLoading, errMsg, count}) => {
-    console.log(logs)
     if(isLoading) {
         return <Loading />;
     }
